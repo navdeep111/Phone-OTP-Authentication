@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Authenticate, initOTPless, verifyOTP } from "../utils/initOtpless";
 import { useNavigate } from "react-router-dom";
 import axios from "axios"; 
-import SecondaryButton from "./SecondButton";
+import SecondButton from "./SecondButton";
 import Context from '../context/AppContext';
 import { toast } from "react-toastify";
 
@@ -153,7 +153,7 @@ function LoginStep1() {
           <hr className="flex-1 bg-gray-300 h-[1px]" />
         </div>
 
-        <SecondaryButton title="Sign Up" action={() => navigate("/signup")} className="w-full py-2 bg-gray-200 text-white rounded-lg mt-2 hover:bg-gray-300 transition duration-200" />
+        <SecondButton title="Sign Up" action={() => navigate("/signup")} className="w-full py-2 bg-gray-200 text-white rounded-lg mt-2 hover:bg-gray-300 transition duration-200" />
 
         <div className="text-center mt-4 text-gray-600 text-sm font-normal">
           Don't have an account? Sign up to access your personalized dashboard

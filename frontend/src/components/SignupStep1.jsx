@@ -4,7 +4,7 @@ import { Authenticate, initOTPless, verifyOTP } from "../utils/initOtpless";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 // import { useAvailabilityContext } from "../AvailabilityContext";
-import SecondaryButton from "./SecondButton";
+import SecondButton from "./SecondButton";
 import Context from '../context/AppContext';
 import { toast } from "react-toastify";
 
@@ -164,7 +164,7 @@ function SignupStep1() {
           <hr className="flex-1 bg-[#B8BFC7] h-[1px]" />
         </div>
 
-        <SecondaryButton title="Login" action={() => navigate("/")} />
+        <SecondButton title="Login" action={() => navigate("/")} />
       </div>
       <div className="text-center mt-4 text-[#5B6572] text-sm font-normal">
       Don't have an account? Sign up to access your personalized dashboard
