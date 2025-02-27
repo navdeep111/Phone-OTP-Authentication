@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { Authenticate, initOTPless, verifyOTP } from "../utils/initOtpless";
 import { useNavigate } from "react-router-dom";
 import axios from "axios"; 
-import SecondaryButton from "./Secondbutton";
+import SecondaryButton from "./SecondButton";
 import Context from '../context/AppContext';
 import { toast } from "react-toastify";
 
